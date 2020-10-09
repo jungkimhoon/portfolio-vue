@@ -1,14 +1,13 @@
 <template>
-  <div>
-      <app-header></app-header>
+  <body data-spy="scroll" data-target="#navbarCodeply" data-offset="80">
       <transition name="slide" mode="out-in">
           <router-view :key="$route.fullPath"></router-view>
       </transition>
-  </div>
+  </body>
 </template>
 
 <script>
-import header from "./components/header.vue";
+import header from "./components/main/header.vue";
 
 export default {
     components: {
@@ -46,4 +45,5 @@ export default {
         opacity: 0;
     }
 }
+
 </style>

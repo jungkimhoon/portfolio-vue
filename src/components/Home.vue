@@ -1,5 +1,5 @@
 <template>
-    <div class="container" style="text-align: center;">
+    <div class="container" style="text-align: center; cursor: pointer;" @click="goMain">
         <div style="height: 100px;"> </div>
         <vue-typer class="display-3"
                    :text='["안녕하세요.","김정훈의 포트폴리오입니다!!!","방문 감사합니다!!!"]'
@@ -13,14 +13,21 @@
                    :erase-on-complete='false'
                    caret-animation='blink'
         ></vue-typer>
+        <div style="height: 80px;"></div>
+        <div>
+            <img src="../assets/dolgo.png">
+        </div>
     </div>
+
 </template>
 
 <script>
-
-
 export default {
-
+    methods: {
+        goMain(){
+            this.$router.push('/main')
+        }
+    }
 }
 </script>
 
@@ -28,4 +35,5 @@ export default {
 .vue-typer .custom.char {
     font-width: bold;
 }
+
 </style>

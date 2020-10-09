@@ -1,7 +1,7 @@
 <template>
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <a class="navbar-brand" href="#">
-      <img src="../assets/mean.jpg" width="30" height="30" class="d-inline-block align-top" alt="" loading="lazy">
+      <img src="src/assets/mean.jpg" width="30" height="30" class="d-inline-block align-top" alt="" loading="lazy">
       <div style="float:left; width:200px;"> <vue-typer text='김정훈 포트폴리오!!!'></vue-typer></div>
     </a>
       <div class="collapse navbar-collapse" id="navbarNav">
