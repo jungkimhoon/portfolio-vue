@@ -1,9 +1,9 @@
 <template>
-  <body data-spy="scroll" data-target="#navbarCodeply" data-offset="80">
+    <body data-spy="scroll" data-target="#scrollSpy" data-offset="50" class="scrollspy-example">
       <transition name="slide" mode="out-in">
           <router-view :key="$route.fullPath"></router-view>
       </transition>
-  </body>
+    </body>
 </template>
 
 <script>
@@ -17,6 +17,9 @@ export default {
 </script>
 
 <style>
+body {
+    position: relative;
+}
 .slide-enter-active {
     animation: slide-in 200ms ease-out forwards;
 }
@@ -46,4 +49,16 @@ export default {
     }
 }
 
+
+.ns{font-family: 'Noto Sans KR', sans-serif;}
+.dFont{
+    font-family: 'Black Han Sans', sans-serif;
+}
+
+.scrollspy-example {
+    position: relative;
+    overflow-y: auto;
+    margin-top: 10px;
+    overflow: auto;
+}
 </style>

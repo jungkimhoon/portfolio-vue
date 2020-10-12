@@ -1,37 +1,30 @@
 <template>
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="#">
-      <img src="src/assets/mean.jpg" width="30" height="30" class="d-inline-block align-top" alt="" loading="lazy">
-      <div style="float:left; width:200px;"> <vue-typer text='김정훈 포트폴리오!!!'></vue-typer></div>
-    </a>
-      <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav">
-              <li class="nav-item active">
-                  <router-link to="#" activeClass="active" tag="li" role="presentation"><a class="nav-link">Home</a></router-link>
-
-
-              </li>
-              <li class="nav-item">
-                  <a class="nav-link" href="#">Features</a>
-              </li>
-              <li class="nav-item">
-                  <a class="nav-link" href="#">Pricing</a>
-              </li>
-              <li class="nav-item">
-                  <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-              </li>
-          </ul>
-      </div>
-  </nav>
-
+    <nav class="navbar navbar-expand-md fixed-top navbar-light py-0 shadow rounded"
+         id="scrollSpy" style="background-color: #f1f8ff">
+        <vue-scroll-progress-bar height="0.5rem" backgroundColor="linear-gradient(to right, magenta, #51D88A)"/>
+        <div class="container">
+            <div class="collapse navbar-collapse">
+                <ul class="nav navbar-nav ns" style="font-size: 1rem; font-weight: bold;">
+                    <a class="nav-link p-3" href="#section0">zero</a>
+                    <a class="nav-link p-3" href="#section1">One</a>
+                    <a class="nav-link p-3" href="#section2">Two</a>
+                    <a class="nav-link p-3" href="#section3">Three</a>
+                </ul>
+            </div>
+        </div>
+    </nav>
 </template>
 
 <script>
+
 export default {
 
 }
 </script>
 
 <style scoped>
+.navbar-light .navbar-nav .nav-link.active {
+    background-color: #f373f3;
+}
 
 </style>
