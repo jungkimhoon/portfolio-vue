@@ -24,7 +24,8 @@
     "vue-text-transition": "^1.0.19",
     "vue-typer": "^1.2.0",
     "vue-typewriter": "^2.2.1",
-    "vue-wow": "^1.2.0"
+    "vue-wow": "^1.2.0",
+    "vuejs-scroll-fixed-header": "^1.0.3"
   },
   "browserslist": [
     "> 1%",

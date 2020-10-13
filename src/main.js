@@ -8,7 +8,6 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import VueScrollProgressBar from '@guillaumebriday/vue-scroll-progress-bar'
 
-
 Vue.use(BootstrapVue)
 Vue.use(VueTyperPlugin)
 Vue.use(VueScrollProgressBar)

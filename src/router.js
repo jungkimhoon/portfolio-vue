@@ -7,7 +7,7 @@ import Main from './components/main/main.vue'
 Vue.use(VueRouter)
 
 const routes = [
-    { path: '/', component: Home },
+    { path: '/', component: Main },
     { path: '/main', component: Main}
 ]
 
