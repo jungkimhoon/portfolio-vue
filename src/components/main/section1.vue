@@ -37,7 +37,7 @@
                 <span class="ns" style="font-size: 0.8vw;">웹개발을 더 깊게 배우고자 자바 개발자 양성과정을 수료하며 웹개발에 관한 전체적인 흐름을 이해할 수 있었습니다.</span><br>
                 <span class="ns"
                       style="font-size: 0.8vw;">현재는 Udemy, Inflean, baekjoon 등을 통해 개인 개발 공부를 진행중입니다.</span><br>
-                <span class="ns" style="font-size: 0.8vw;">깊게 파려면 넓게 파라는 말처럼 넓게 배워 깊이 있는 개발자로 성장하겠습니다.</span><br>
+                <span class="ns" style="font-size: 0.8vw;">안주하지 않고 새로운 것들을 적극적으로 배우는 젊은 개발자가 되겠습니다.</span><br>
                 <span class="ns" style="font-size: 0.8vw;">감사합니다!!!!</span>
             </div>
             <br>

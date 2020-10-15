@@ -5,14 +5,14 @@
             <h2 class="ns" style="font-weight: bold;" align="center">Language</h2><br>
             <div class="skill_box" align="center">
                 <div class="skill_img_container"
-                     style="background-image: url('./src/assets/skill/java.png'); cursor: pointer;"
+                     style="background-image: url('/dist/skill/java.png'); cursor: pointer;"
                 >
                     <div class="Skill_label"
                     >JAVA<br>intermediate
                     </div>
                 </div>
                 <div class="skill_img_container"
-                     style="background-image: url('./src/assets/skill/javascript.png'); cursor: pointer;"
+                     style="background-image: url('/dist/skill/javascript.png'); cursor: pointer;"
                 >
                     <div class="Skill_label">Javascript<br>basic</div>
                 </div>
@@ -21,19 +21,19 @@
             <h2 class="ns" style="font-weight: bold;" align="center">Front-End</h2><br>
             <div class="skill_box" align="center" data-aos="fade-up">
                 <div class="skill_img_container"
-                     style="background-image: url('./src/assets/skill/html.png'); cursor: pointer;">
+                     style="background-image: url('/dist/skill/html.png'); cursor: pointer;">
                     <div class="Skill_label">HTML<br>basic</div>
                 </div>
                 <div class="skill_img_container"
-                     style="background-image: url('./src/assets/skill/css.png'); cursor: pointer;">
+                     style="background-image: url('/dist/skill/css.png'); cursor: pointer;">
                     <div class="Skill_label">CSS<br>basic</div>
                 </div>
                 <div class="skill_img_container"
-                     style="background-image: url('./src/assets/skill/vue.jpg'); cursor: pointer;">
+                     style="background-image: url('/dist/skill/vue.jpg'); cursor: pointer;">
                     <div class="Skill_label">Vue.js<br>intermediate</div>
                 </div>
                 <div class="skill_img_container"
-                     style="background-image: url('./src/assets/skill/bootstrap.png'); cursor: pointer;">
+                     style="background-image: url('/dist/skill/bootstrap.png'); cursor: pointer;">
                     <div class="Skill_label">Bootstrap<br>basic</div>
                 </div>
             </div>
@@ -41,19 +41,19 @@
             <h2 class="ns" style="font-weight: bold;" align="center">Back-End</h2><br>
             <div class="skill_box" align="center" data-aos="fade-up">
                 <div class="skill_img_container"
-                     style="background-image: url('./src/assets/skill/springboot.png'); cursor: pointer;">
+                     style="background-image: url('/dist/skill/springboot.png'); cursor: pointer;">
                     <div class="Skill_label">Spring Boot<br>intermediate</div>
                 </div>
                 <div class="skill_img_container"
-                     style="background-image: url('./src/assets/skill/jpa.png'); cursor: pointer;">
+                     style="background-image: url('/dist/skill/jpa.png'); cursor: pointer;">
                     <div class="Skill_label">JPA<br>basic</div>
                 </div>
                 <div class="skill_img_container"
-                     style="background-image: url('./src/assets/skill/mybatis.png'); cursor: pointer;">
+                     style="background-image: url('/dist/skill/mybatis.png'); cursor: pointer;">
                     <div class="Skill_label">mybatis<br>basic</div>
                 </div>
                 <div class="skill_img_container"
-                     style="background-image: url('./src/assets/skill/oracle.png'); cursor: pointer;">
+                     style="background-image: url('/dist/skill/oracle.png'); cursor: pointer;">
                     <div class="Skill_label">
                         Javascript<br>basic
                     </div>
